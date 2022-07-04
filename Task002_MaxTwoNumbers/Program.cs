@@ -12,9 +12,11 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("Число 'a' больше числа 'b'");
+    Console.Write("Число " + a + " большее");
+    Console.WriteLine(", а число " + b + " меньшее");
 }
 else
 {
-    Console.WriteLine("Число 'a' меньше числа 'b'");
+    Console.Write("Число " + b + " большее");
+    Console.WriteLine(", а число " + a + " меньшее");
 }
